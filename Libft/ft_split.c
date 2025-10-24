@@ -93,3 +93,57 @@ char	**ft_split(char const *s, char c)
 	arr[j] = NULL;
 	return (arr);
 }
+/*
+#include <stdio.h>
+void print_split(char **result)
+{
+	int i = 0;
+	while (result[i])
+	{
+		printf("res[%d]: \"%s\"\n", i, result[i]);
+		i++;
+	}
+	printf("res[%d]: NULL\n\n", i);
+}
+
+void free_split(char **res)
+{
+	int i = 0;
+	while (res[i])
+		free(res[i++]);
+	free(res);
+}
+
+// -------- Main Test Function --------
+int main(void)
+{
+	char **res;
+
+	res = ft_split("this-test-1", '-');
+	printf("Test 1:\n");
+	print_split(res);
+	free_split(res);
+
+	res = ft_split("--this--is--test2--", '-');
+	printf("Test 2:\n");
+	print_split(res);
+	free_split(res);
+
+	res = ft_split("test3", '-');
+	printf("Test 3:\n");
+	print_split(res);
+	free_split(res);
+
+	res = ft_split("------", '-');
+	printf("Test 4:\n");
+	print_split(res);
+	free_split(res);
+
+	res = ft_split("", '-');
+	printf("Test 5:\n");
+	print_split(res);
+	free_split(res);
+
+	return (0);
+}
+*/
