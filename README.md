@@ -9,21 +9,21 @@ This project creates a library of functions to be used in future 42 projects.
 
 # Divisions
 
-For more information regarding the task, please refer to the Subject PDF (en.subject.pdf) in the repository. Generally, the functions are split into 3 categories, LIBC functions, Additional Functions, and Bonus Functions. Each function is written with modularity in mind. Hence, many functions reuse functions that have been written elsewhere within the same project.
+For more information regarding the task, please refer to the Subject PDF (`en.subject.pdf`) in the repository. Generally, the functions are split into 3 categories, LIBC functions, Additional Functions, and Bonus Functions. Each function is written with modularity in mind. Hence, many functions reuse functions that have been written elsewhere within the same project.
 
 
 # Running and Testing
 
-In addition to functions, the repository also contains a Makefile and a header file (libft.h) as per the assignment requirement. However, these additional files serve as a quality of life improvement in the library archiving and testing processes.
+In addition to functions, the repository also contains a Makefile and a header file (`libft.h`) as per the assignment requirement. However, these additional files serve as a quality of life improvement in the library archiving and testing processes.
 
 
 ## 1. Makefile Functions
 
-`make` - Simply makes the library, ensure that the header file (libft.h) and all required C functions are within the same directory as the Makefile.
+`make` - Simply makes the library, ensure that the header file (`libft.h`) and all required C functions are within the same directory as the Makefile.
 
 `make clean` - Removes all object files after `make`.
 
-`make fclean` - Removes all object files and removes libft.a (the library created from calling `make`).
+`make fclean` - Removes all object files and removes `libft.a` (the library created from calling `make`).
 
 `make re` - A shortcut function that allows fclean and make to be called together (`make fclean && make`).
 
