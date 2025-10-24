@@ -26,4 +26,5 @@ int main(void)
     char c = 'a';
 
 	printf("Before: %c, After: %c", original, ft_toupper(c));
+	return (0);
 }*/
