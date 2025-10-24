@@ -62,15 +62,15 @@ int main(void)
     printf("Trimmed: '%s'\n", result);
     free(result);
 
-    result = ft_strtrim("xxhixxx42KL Rocksxxx dkdkc xxxx", "x");
+    result = ft_strtrim("xxhixxtestKL tssxxx dkthkc xxxx", "x");
     printf("Trimmed: '%s'\n", result);
     free(result);
 
-    result = ft_strtrim("ababaaaMy name is Simonbbaaabbad", "ab");
+    result = ft_strtrim("ababaaathis is a testbbaaabbad", "ab");
     printf("Trimmed: '%s'\n", result);
     free(result);
 
-    result = ft_strtrim("OpenAI", "xyz");
+    result = ft_strtrim("Test", "xyz");
     printf("Trimmed: '%s'\n", result);
     free(result);
 
