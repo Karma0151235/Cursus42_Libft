@@ -30,3 +30,14 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (srclen);
 }
+/*
+#include <stdio.h>
+int main(void)
+{
+    const char *s = "Hello, world!"; // 13
+	const char *d = "             ";
+
+	printf("%s\n", d);
+	printf("%s\n", ft_strlcpy(d, s, 13);
+    return 0;
+}*/
