@@ -39,3 +39,13 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[i] = '\0';
 	return (str);
 }
+#include <stdio.h>
+int main(void)
+{
+    const char *s = "Hello, world!"; // 13
+	const char *d = "This is Test"; // 12
+
+	printf("%s, %s\n", s, d);
+	printf("%s", ft_strjoin(d, s));
+    return 0;
+}*/
