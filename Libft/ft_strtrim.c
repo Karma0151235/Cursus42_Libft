@@ -52,3 +52,31 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(str, s1 + i, sub + 1);
 	return (str);
 }
+/*
+#include <stdio.h>
+int main(void)
+{
+    char *result;
+
+    result = ft_strtrim("   Hello, World!   ", " ");
+    printf("Trimmed: '%s'\n", result);
+    free(result);
+
+    result = ft_strtrim("xxhixxx42KL Rocksxxx dkdkc xxxx", "x");
+    printf("Trimmed: '%s'\n", result);
+    free(result);
+
+    result = ft_strtrim("ababaaaMy name is Simonbbaaabbad", "ab");
+    printf("Trimmed: '%s'\n", result);
+    free(result);
+
+    result = ft_strtrim("OpenAI", "xyz");
+    printf("Trimmed: '%s'\n", result);
+    free(result);
+
+    result = ft_strtrim("aaaa", "a");
+    printf("Trimmed: '%s'\n", result);
+    free(result);
+
+    return 0;
+}*/
