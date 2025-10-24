@@ -17,7 +17,7 @@ For more information regarding the task, please refer to the Subject PDF (en.sub
 In addition to functions, the repository also contains a Makefile and a header file (libft.h) as per the assignment requirement. However, these additional files serve as a quality of life improvement in the library archiving and testing processes.
 
 
-## Makefile Functions
+## 1. Makefile Functions
 
 `make` - Simply makes the library, ensure that the header file (libft.h) and all required C functions are within the same directory as the Makefile.
 
@@ -28,7 +28,7 @@ In addition to functions, the repository also contains a Makefile and a header f
 `make re` - A shortcut function that allows fclean and make to be called together (`make fclean && make`).
 
 
-## Validation of Results
+## 2. Validation of Results
 
 The functions have been tested through community-validated testers. To replicate the testing, ensure the tester.sh file from the Tester/ directory is within the same directory as libft. Then, call `bash tester.sh` to start the testing.
 
