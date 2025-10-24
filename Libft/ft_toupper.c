@@ -19,3 +19,12 @@ int	ft_toupper(int c)
 	else
 		return (c);
 }
+/*
+/*
+#include <stdio.h>
+int main(void)
+{
+    char c = 'a';
+
+	printf("Before: %c, After: %c", original, ft_toupper(c));
+}*/
