@@ -68,3 +68,15 @@ char	*ft_itoa(int n)
 		return (NULL);
 	return (ft_inttostr(nb, len, str));
 }
+/*
+#include <stdio.h>
+int main(void)
+{
+    int n = -42;
+    char *result;
+
+    result = ft_itoa(n);
+    printf("Input: %d || Output: %s\n", n, result); // output: "-42"
+    free(result);
+    return 0;
+}*/
