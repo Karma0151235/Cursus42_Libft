@@ -1,5 +1,5 @@
-# Cursus42_libft
-This repository contains the libft project from the 42 Cursus.
+# Cursus42_Libft
+This repository contains the Libft project from the 42 Cursus.
 
 # Overview
 Libft is the first project in the 42 Cursus. The goal is to recreate a set of functions from standard C libraries such as strlen and memchr. Additionally, the project aims to teach important concepts in memory management, pointer arithmetic, and string manipulation in C.
