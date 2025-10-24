@@ -46,7 +46,7 @@ int main(void) {
 
     result = ft_strnstr(h1, n1, 5); // false.
 
-    result = ft_strnstr(h1, n1, 7); // "Foo Bar" - Bar starts at index 4. 4+2 = 6. 6 < 7.
+    result = ft_strnstr(h1, n1, 7); // "Foo Bar" - 4+2 = 6. 6 < 7.
 
     result = ft_strnstr(h1, "", 11);
 	
