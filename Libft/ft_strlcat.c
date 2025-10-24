@@ -36,3 +36,15 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[dstlen] = '\0';
 	return (sum);
 }
+/*
+#include <stdio.h>
+int main(void)
+{
+    const char *s = "Hello, world!"; // 13
+	const char *d = "This is Test"; // 12
+
+	printf("%s\n", d);
+	ft_strlcat(d, s, 25)
+	printf("%s\n", d);
+    return 0;
+}*/
