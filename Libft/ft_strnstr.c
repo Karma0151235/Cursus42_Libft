@@ -40,21 +40,21 @@ int main(void) {
     const char *n1 = "Bar";
 	char	*result;
 
-    //     result = ft_strnstr(h1, n1, 11); // len covers the whole string
+    result = ft_strnstr(h1, n1, 11); // len covers the whole string
 
-    //     result = ft_strnstr(h1, "Quux", 11);
+    result = ft_strnstr(h1, "Quux", 11);
 
-    //     result = ft_strnstr(h1, n1, 5); // false.
+    result = ft_strnstr(h1, n1, 5); // false.
 
-    //     result = ft_strnstr(h1, n1, 7); // "Foo Bar" - Bar starts at index 4. 4+2 = 6. 6 < 7.
+    result = ft_strnstr(h1, n1, 7); // "Foo Bar" - Bar starts at index 4. 4+2 = 6. 6 < 7.
 
-    //     result = ft_strnstr(h1, "", 11);
+    result = ft_strnstr(h1, "", 11);
 	
-    //     result = ft_strnstr(h1, "", 0); // Empty needle, len 0
+    result = ft_strnstr(h1, "", 0); // Empty needle, len 0
 
-    //     result = ft_strnstr(h1, "Foo", 11);
+    result = ft_strnstr(h1, "Foo", 11);
 	
-    //     result = ft_strnstr(h1, "Foo", 2); // len too short for "Foo"
+    result = ft_strnstr(h1, "Foo", 2); // len too short for "Foo"
 	
 	printf ("%s", result);
     return 0;
