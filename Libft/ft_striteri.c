@@ -25,3 +25,22 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
+/*
+char to_upper(unsigned int i, char c)
+{
+    (void)i;
+    if (c >= 'a' && c <= 'z')
+        return c - 32;
+    return c;
+}
+
+#include <stdio.h>
+int main()
+{
+    char *input = "hello World!";
+    char *result = ft_striteri(input, to_upper);
+    printf("Input:  %s\n", input);
+    printf("Output: %s\n", result);
+    free(result);
+    return 0;
+}*/
