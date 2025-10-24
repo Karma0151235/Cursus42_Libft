@@ -56,4 +56,5 @@ This project validated many crucial concepts from the Piscine. Although it is qu
 # Author
 
 **Stephen Tee**
-42 Kuala Lumpur | Sunway University | Lancaster University | University of Malaya
+
+42 Kuala Lumpur | Sunway University | Lancaster University 
