@@ -19,3 +19,11 @@ int	ft_tolower(int c)
 	else
 		return (c);
 }
+/*
+#include <stdio.h>
+int main(void)
+{
+    char c = 'A';
+
+	printf("Before: %c, After: %c", original, ft_tolower(c));
+}*/
