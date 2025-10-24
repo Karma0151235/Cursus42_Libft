@@ -21,3 +21,13 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
+/*
+#include <stdio.h>
+int main(void)
+{
+    const char *s = "Hello, world!"; // 13
+
+	printf("%s, %d", s, ft_strlen(s));
+
+    return 0;
+}*/
