@@ -25,7 +25,7 @@ In addition to functions, the repository also contains a Makefile and a header f
 
 `make fclean` - Removes all object files and removes libft.a (the library created from calling `make`).
 
-`make re` - A shortcut function that allows fclean and make to be called together (`make fclean && make).
+`make re` - A shortcut function that allows fclean and make to be called together (`make fclean && make`).
 
 
 ## Validation of Results
