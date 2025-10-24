@@ -42,8 +42,8 @@ However, during my pre-evaluation testing, only the following testers have been 
 | y3ll0w42 | https://github.com/y3ll0w42/libft-war-machine | ✅ | Pass |
 | jtoty | https://github.com/jtoty/Libftest.git | ✅ | Pass |
 | Tripouille | https://github.com/Tripouille/libftTester.git | ✅ | Pass |
-| alelievr | https://github.com/alelievr/libft-unit-test.git | ❌ | N/A |
 | adrossig | https://github.com/adrossig/libft_tester.git | ✅ | Pass |
+| alelievr | https://github.com/alelievr/libft-unit-test.git | ❌ | N/A |
 
 
 # Learning Outcomes
