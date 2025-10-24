@@ -36,3 +36,30 @@ int	ft_atoi(const char *nptr)
 	}
 	return (sum * sign);
 }
+/*
+#include <stdio.io>
+int main()
+{
+    int result;
+
+    result = ft_atoi("123abc456");
+    printf("Input: \"123abc456\" -> Output: %d\n", result); // output: 123
+
+    result = ft_atoi("abc123");
+    printf("Input: \"abc123\" -> Output: %d\n", result); // output: 0
+
+    result = ft_atoi("--+++1234abc56");
+    printf("Input: \"--+++1234abc56\" -> Output: %d\n", result); // output: 0
+
+    result = ft_atoi("");
+    printf("Input: \"\" -> Output: %d\n", result); // output: 0
+
+    result = ft_atoi("   -0012a42");
+    printf("Input: \"   -0012a42\" -> Output: %d\n", result); // output: -12
+
+    result = ft_atoi("0");
+    printf("Input: \"0\" -> Output: %d\n", result); // output: 0
+
+    return 0;
+}
+*/
