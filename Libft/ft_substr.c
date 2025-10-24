@@ -37,3 +37,28 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub[i] = '\0';
 	return (sub);
 }
+/*
+#include <stdio.h>
+int main(void)
+{
+    char *s = "Hello, world!";
+    char *sub;
+
+    sub = ft_substr(s, 0, 5);   // "Hello"
+    printf("1: %s\n", sub);
+    free(sub);
+
+    sub = ft_substr(s, 7, 5);   // "world"
+    printf("2: %s\n", sub);
+    free(sub);
+
+    sub = ft_substr(s, 20, 5);  // "" (start > strlen)
+    printf("3: '%s'\n", sub);
+    free(sub);
+
+    sub = ft_substr(s, 4, 20);  // "o, world!"
+    printf("4: %s\n", sub);
+    free(sub);
+
+    return 0;
+}*/
