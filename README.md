@@ -19,7 +19,6 @@ In addition to functions, the repository also contains a Makefile and a header f
 
 ## Makefile Functions
 
-
 `make` - Simply makes the library, ensure that the header file (libft.h) and all required C functions are within the same directory as the Makefile.
 
 `make clean` - Removes all object files after `make`.
@@ -34,7 +33,6 @@ In addition to functions, the repository also contains a Makefile and a header f
 The functions have been tested through community-validated testers. To replicate the testing, ensure the tester.sh file from the Tester/ directory is within the same directory as libft. Then, call `bash tester.sh` to start the testing.
 
 This tester encompasses 5 testers, and was found here:
-
 https://github.com/FranFrau/Supreme-Tester-Libft?tab=readme-ov-file
 
 However, during my pre-evaluation testing, only the following testers have been used:
