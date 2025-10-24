@@ -40,7 +40,7 @@ char to_upper(unsigned int i, char c)
 #include <stdio.h>
 int main()
 {
-    char *input = "hello World!";
+    char *input = "this is a Test";
     char *result = ft_strmapi(input, to_upper);
     printf("Input:  %s\n", input);
     printf("Output: %s\n", result);
