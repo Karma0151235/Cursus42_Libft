@@ -20,6 +20,6 @@ void	ft_putendl_fd(char *s, int fd)
 /*
 int main(void)
 {
-    ft_putendl_fd("NiHaoMa", 1);
+    ft_putendl_fd("ThisisaTest", 1);
     return (0);
 }*/
