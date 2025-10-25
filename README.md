@@ -30,7 +30,7 @@ In addition to functions, the repository also contains a Makefile and a header f
 
 ## 2. Validation of Results
 
-The functions have been tested through community-validated testers. To replicate the testing, ensure the tester.sh file from the Tester/ directory is within the same directory as libft. Then, call `bash tester.sh` to start the testing.
+The functions have been tested through community-validated testers. To replicate the testing, ensure the tester.sh file from the Tester/ directory is within the same directory as libft. Then, call `bash tester.sh` to start the testing. Please refer to the GitHub repository distributed below for more details regarding testing. 
 
 This tester encompasses 5 testers, and can be found here:
 
