@@ -37,7 +37,7 @@ int	ft_atoi(const char *nptr)
 	return (sum * sign);
 }
 /*
-#include <stdio.io>
+#include <stdio.h>
 int main()
 {
     int result;
